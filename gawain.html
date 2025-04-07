@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETISBEW</title>
+    <style>
+        *{
+            margin: 3px;
+            padding: 3px;
+        }
+        .h-1 {
+            background-color: rgb(99, 129, 185);
+            padding: 25px;
+            margin-bottom: 3px;
+            font-size: px;
+            color: rgb(14, 0, 0);
+            text-align: center;
+            border-radius: 12px;
+            font-family: 'Georgia';
+        }
+        nav {
+            background-color: rgb(172, 181, 199);
+            padding: 25px;
+            margin-bottom: 3px;
+            font-size: 18px;
+            border-radius: 6px;
+            color: black;
+            display: flex;
+            justify-content: center;
+            font-family: 'Tahoma';
+        }
+        nav ul {
+            list-style: none;
+            padding: 6px;
+            display: flex;
+            gap: 3rem;
+        }     
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(156, 54, 54);
+        }
+        .flex-container {
+            display: flex;
+            gap: 5px;
+            padding: 20px;
+            background-color: rgb(166, 179, 196);
+            border-radius: 6px;
+        }
+        .about-us, .latest-news, .related-links {
+            background-color: rgb(204, 94, 80);
+            padding: 50px;
+            border-radius: 25px;
+            flex: 1;
+        }
+        .latest-news {
+            background-color: rgb(88, 123, 211);
+            text-align: left;
+        }
+        .related-links {
+            background-color: rgb(184, 196, 121);
+            text-align: center;
+        }
+        .related-links ul li a {
+            text-decoration: none;
+            color: blue;
+        }
+        footer {
+            text-align: center;
+            font-size: 15px;
+            padding: 10px;
+            text-shadow: 3px 3px 5px black;
+        }
+    </style>
+</head>
+<body>
+    <header class="h-1">Sample.com
+        <h1>Welcome to Our Website</h1>
+        <p>Your one-stop solution for all your needs.</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main class="flex-container">
+        <section class="about-us">
+            <h2>About Us</h2>
+            <p>This is the about section of our website.</p>
+        </section>
+        
+        <section class="latest-news">
+            <article>
+                <h3>Latest News</h3>
+                <p>This is the latest news article.</p>
+            </article>
+        </section>
+        
+        <aside class="related-links">
+            <h4>Related Links</h4>
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/?flo=true" target="_blank">Instagram</a></li>
+                <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+            </ul>
+        </aside>
+        
+    </main>
+
+    <footer>
+        <p>&copy;2024 Sample Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
